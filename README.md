@@ -9,7 +9,7 @@ The paper uses three types of datasets, which are described below:
 Data source: Compustat ExecuComp (via WRDS)
 Time period: 1992-2021
 Variables: All available variables (108 variables in total)
-Companies: All companies included in the database
+Companies: All available companies
 
 2. Data on S&P 1500 Companies: Financials
 Data source: Compustat North America: Compustat Daily Updates - Fundamentals Annual (via WRDS)
@@ -28,7 +28,7 @@ Time period: 1992-2021
 Variables: All available variables (108 variables in total)
 Companies: S&P 1500 companies (as of December 1997)
 
-Unfortunately, we are also not allowed to share the list of S&P 1500 companies from December 1997. This list can be bought from Siblis Research (https://siblisresearch.com/data/historical-component-changes/). If you have bought the list, we are of course happy to check whether your sample is similar to ours (please note that we struggled to collect information from all 1500 firms from Compustat).
+Unfortunately, we are not allowed to share the list of S&P 1500 companies from December 1997. This list can be bought from Siblis Research (https://siblisresearch.com/data/historical-component-changes/). If you have bought the list, we are of course happy to check whether your sample is similar to ours (please note that we struggled to collect information from all 1500 firms from Compustat because of incorrect TIC).
 
 After downloading the data, you can import them into Stata and run our do-files to replicate all steps in the paper including merging and data analysis. Please follow this order:
 
